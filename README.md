@@ -2,9 +2,9 @@
 
 ## How to use
 
-[`/events`](https://railsconf-2022-schedule.hosted.garytou.dev/events) - for a JSON list of events
+[`/events`](https://railsconf.garytou.com/events) - JSON list of events
 
-[`/calendar.ics`](https://railsconf-2022-schedule.hosted.garytou.dev/calendar.ics) - for an ics file of events (for import into calendar apps)
+[`/calendar.ics`](https://railsconf.garytou.com/calendar.ics) - ical (ics) file of events (for subscription in calendar apps)
 
 ## Development
 
