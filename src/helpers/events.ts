@@ -99,7 +99,10 @@ function parseSlot(
 
 	const events: event[] = [];
 	if (sessionHtml.hasClass('session')) {
-		events.push(parseSession($, sessionHtml));
+		const sess = parseSession($, sessionHtml);
+		if (sess.title !== 'Registration') {
+			events.push(sess);
+		}
 	} else {
 		// Session group
 		const sessions = sessionHtml.find('.session');
