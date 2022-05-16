@@ -13,7 +13,7 @@ const DAYS = [
 	{ id: 'thursday', date: moment('2022-05-18') },
 ];
 
-async function getEvents() {
+export async function getEvents() {
 	// TODO: cache events (expire every 10 minutes)
 
 	const html = await getHtml();
@@ -32,17 +32,13 @@ async function getEvents() {
 	return events;
 }
 
-async function parseDay(
-	$: cheerio.Root,
-	date: Moment,
-	dayHtml: cheerio.Cheerio
-) {
+function parseDay($: cheerio.Root, date: Moment, dayHtml: cheerio.Cheerio) {
 	let slots = [];
 	const elements = dayHtml.children();
 
 	for (let i = 0; i < elements.length; i += 2) {
 		try {
-			slots.push(await parseSlot($, date, $(elements[i]), $(elements[i + 1])));
+			slots.push(parseSlot($, date, $(elements[i]), $(elements[i + 1])));
 		} catch (e) {
 			console.log(e);
 		}
@@ -51,7 +47,7 @@ async function parseDay(
 	return slots;
 }
 
-async function parseSlot(
+function parseSlot(
 	$: cheerio.Root,
 	date: Moment,
 	timeslotHtml: cheerio.Cheerio,
@@ -88,7 +84,6 @@ async function parseSlot(
 		events.push(parseSession($, sessionHtml));
 	} else {
 		// Session group
-		// TODO: break group session into their own events. There should only be one session per event
 		const sessions = sessionHtml.find('.session');
 		for (let sess of sessions) {
 			events.push(parseSession($, $(sess)));
@@ -112,12 +107,12 @@ function parseSession($: cheerio.Root, sessionHtml: cheerio.Cheerio): event {
 		sessionHtml.find('.session-title a').attr('href')?.toString()?.trim() ||
 		undefined;
 	const absUrl = relUrl ? BASE_URL + relUrl : undefined;
-	const author = sessionHtml.find('.session-author').text().trim(); // TODO: handle "RSVP to join!" link
+	const author = sessionHtml.find('.session-author').text().trim();
 	const location = sessionHtml.find('.session-location').text().trim();
 	const labels = sessionHtml
 		.find('.session-labels')
 		.children()
-		.map((el) => $(el).text().trim())
+		.map((i, el) => $(el).text().trim())
 		.get();
 
 	return {
@@ -130,7 +125,7 @@ function parseSession($: cheerio.Root, sessionHtml: cheerio.Cheerio): event {
 	};
 }
 
-type event = {
+export type event = {
 	title: string;
 	url?: string;
 	author?: string;
@@ -143,5 +138,3 @@ async function getHtml() {
 	const res = await axios.get(SCHEDULE_URL);
 	return await res.data;
 }
-
-export { getEvents };

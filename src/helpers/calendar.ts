@@ -1,5 +1,6 @@
 import { getEvents } from './events';
 import ical from 'ical-generator';
+import { Moment } from 'moment';
 
 async function getCalendar() {
 	const calendar = ical({
@@ -14,18 +15,49 @@ async function getCalendar() {
 	// add events to calendar
 	events.forEach((e) => {
 		for (let session of e.events) {
-			calendar.createEvent({
-				start: e.start,
-				end: e.end,
-				summary: session.title,
-				description: session.author,
-				location: session.location,
-				url: session.url,
-			});
+			calendar.createEvent(
+				format(
+					e.start,
+					e.end,
+					session.title,
+					session.labels,
+					session.author,
+					session.location,
+					session.url,
+					session.break
+				)
+			);
 		}
 	});
 
 	return calendar;
+
+	function format(
+		start: Moment,
+		end: Moment,
+		title: string,
+		labels: string[],
+		author: string,
+		location: string,
+		url: string,
+		isBreak: boolean
+	) {
+		const t = title + labels.reduce((acc, label) => acc + ` [${label}]`, '');
+
+		const desLabels = labels ? 'Track: ' + labels.join(', ') + '\n' : '';
+		const desAuthors = author ? author + '\n' : ''; // sometimes the `author` html element also contains an event description
+		const desUrl = url ? '\n' + url : ''; // not all calendar support the URL field, so we add it to the description
+		const des = desLabels + desAuthors + desUrl;
+
+		return {
+			start,
+			end,
+			summary: t,
+			description: des,
+			location,
+			url,
+		};
+	}
 }
 
 export { getCalendar };
