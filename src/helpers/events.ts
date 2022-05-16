@@ -1,16 +1,18 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-import moment, { Moment } from 'moment';
+import moment, { Moment } from 'moment-timezone';
 
 var lastScraped;
 var cache;
 
 const SCHEDULE_URL = 'https://railsconf.org/schedule';
 const BASE_URL = 'https://railsconf.org/';
+const PT_OFFSET = '-7:00';
+const PT_TZ = 'America/Los_Angeles';
 const DAYS = [
-	{ id: 'tuesday', date: moment('2022-05-16') },
-	{ id: 'wednesday', date: moment('2022-05-17') },
-	{ id: 'thursday', date: moment('2022-05-18') },
+	{ id: 'tuesday', date: moment.tz('2022-05-16', PT_TZ) },
+	{ id: 'wednesday', date: moment.tz('2022-05-17', PT_TZ) },
+	{ id: 'thursday', date: moment.tz('2022-05-18', PT_TZ) },
 ];
 
 export async function getEvents() {
@@ -68,13 +70,13 @@ function parseSlot(
 	console.log(times);
 
 	const start = moment(
-		`${date.format('YYYY-MM-DD')} ${times[0]} -07:00`,
+		`${date.format('YYYY-MM-DD')} ${times[0]} ${PT_OFFSET}`,
 		'YYYY-MM-DD h:mma Z'
 	);
 	const end =
 		times.length == 2
 			? moment(
-					`${date.format('YYYY-MM-DD')} ${times[1]} -07:00`,
+					`${date.format('YYYY-MM-DD')} ${times[1]} ${PT_OFFSET}`,
 					'YYYY-MM-DD h:mma Z'
 			  )
 			: start;
