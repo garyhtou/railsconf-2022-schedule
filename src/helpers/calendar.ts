@@ -5,7 +5,7 @@ async function getCalendar() {
 	const calendar = ical({
 		name: 'RailsConf 2022',
 		description:
-			'Schedule for RailsConf 2022 in Portland, OR. May 16th - 19th.',
+			'Schedule for RailsConf 2022 in Portland, OR. May 17th - 19th.',
 		timezone: 'America/Los_Angeles',
 	});
 
