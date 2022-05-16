@@ -10,7 +10,16 @@ const calendar = ical({
 async function getCalendar() {
 	const events = await getEvents();
 
-	// TODO: add events to calendar
+	// add events to calendar
+	events.forEach((e) => {
+		calendar.createEvent({
+			start: e.start,
+			end: e.end,
+			summary: e.events[0].title,
+			description: e.events[0].author,
+			location: e.events[0].location,
+		});
+	});
 
 	return calendar;
 }
