@@ -3,12 +3,12 @@ import cheerio from 'cheerio';
 import moment, { Moment } from 'moment-timezone';
 
 var lastScraped = 0;
-var cache: any[] = null;
+var cache: timeslot[] = null;
 
 const SCHEDULE_URL = 'https://railsconf.org/schedule';
 const BASE_URL = 'https://railsconf.org/';
 const PT_OFFSET = '-7:00';
-const PT_TZ = 'America/Los_Angeles';
+export const PT_TZ = 'America/Los_Angeles';
 const DAYS = [
 	{ id: 'tuesday', date: moment.tz('2022-05-17', PT_TZ) },
 	{ id: 'wednesday', date: moment.tz('2022-05-18', PT_TZ) },
@@ -152,6 +152,12 @@ export type event = {
 	labels: string[];
 	break: boolean;
 };
+
+export type timeslot = {
+	start: Moment;
+	end: Moment;
+	events: event[];
+}
 
 async function getHtml() {
 	const res = await axios.get(SCHEDULE_URL);

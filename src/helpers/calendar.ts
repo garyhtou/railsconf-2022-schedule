@@ -1,5 +1,5 @@
-import { getEvents } from './events';
-import ical from 'ical-generator';
+import { getEvents, PT_TZ } from './events';
+import ical, { ICalEvent, ICalEventData } from 'ical-generator';
 import { Moment } from 'moment';
 
 async function getCalendar() {
@@ -15,6 +15,7 @@ async function getCalendar() {
 	// add events to calendar
 	events.forEach((e) => {
 		for (let session of e.events) {
+			// console.log({ title: session.title, start: e.start.format() });
 			calendar.createEvent(
 				format(
 					e.start,
@@ -41,7 +42,7 @@ async function getCalendar() {
 		location: string,
 		url: string,
 		isBreak: boolean
-	) {
+	): ICalEvent | ICalEventData {
 		const t = title + labels.reduce((acc, label) => acc + ` [${label}]`, '');
 
 		const desLabels = labels.length ? 'Track: ' + labels.join(', ') + '\n' : '';
@@ -56,6 +57,7 @@ async function getCalendar() {
 			description: des,
 			location,
 			url,
+			timezone: PT_TZ,
 		};
 	}
 }
