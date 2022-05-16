@@ -98,17 +98,17 @@ function parseSlot(
 	const events: event[] = [];
 	if (sessionHtml.hasClass('session')) {
 		const sess = parseSession($, sessionHtml);
-		if (sess.title === 'Registration') {
-			return null;
-		}
-		events.push(sess);
+		if (sess.title !== 'Registration' && sess) events.push(sess);
 	} else {
 		// Session group
 		const sessions = sessionHtml.find('.session');
 		for (let sess of sessions) {
-			events.push(parseSession($, $(sess)));
+			const parsedSess = parseSession($, $(sess));
+			if (parsedSess) events.push(parsedSess);
 		}
 	}
+
+	if (!events.length) return null;
 
 	return {
 		start,
@@ -132,6 +132,8 @@ function parseSession($: cheerio.Root, sessionHtml: cheerio.Cheerio): event {
 		.children()
 		.map((i, el) => $(el).text().trim())
 		.get();
+
+	if (!title) return null;
 
 	return {
 		title,
