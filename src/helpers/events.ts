@@ -108,22 +108,21 @@ function parseSession($: cheerio.Root, sessionHtml: cheerio.Cheerio): event {
 	const isBreak = sessionHtml.hasClass('break');
 
 	const title = sessionHtml.find('.session-title').text().trim();
-	const url = sessionHtml
-		.find('.session-title a')
-		.attr('href')
-		?.toString()
-		.trim();
+	const relUrl =
+		sessionHtml.find('.session-title a').attr('href')?.toString()?.trim() ||
+		undefined;
+	const absUrl = relUrl ? BASE_URL + relUrl : undefined;
 	const author = sessionHtml.find('.session-author').text().trim(); // TODO: handle "RSVP to join!" link
 	const location = sessionHtml.find('.session-location').text().trim();
 	const labels = sessionHtml
 		.find('.session-labels')
 		.children()
-		.map((i, el) => $(el).text().trim())
+		.map((el) => $(el).text().trim())
 		.get();
 
 	return {
 		title,
-		url,
+		url: absUrl,
 		author,
 		location,
 		labels,

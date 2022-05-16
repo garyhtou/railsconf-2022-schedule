@@ -20,7 +20,7 @@ async function getCalendar() {
 				summary: session.title,
 				description: session.author,
 				location: session.location,
-				url: session.url ? `https://railsconf.com${session.url}` : '',
+				url: session.url,
 			});
 		}
 	});
