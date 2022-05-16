@@ -15,11 +15,7 @@ const DAYS = [
 ];
 
 export async function getEvents(force: boolean = false) {
-	if (
-		!force &&
-		cache &&
-		lastScraped > moment().subtract(4, 'minutes').unix()
-	) {
+	if (!force && cache && lastScraped > moment().subtract(4, 'minutes').unix()) {
 		console.log('Using cached events');
 		return cache;
 	}
@@ -56,7 +52,8 @@ function parseDay($: cheerio.Root, date: Moment, dayHtml: cheerio.Cheerio) {
 
 	for (let i = 0; i < elements.length; i += 2) {
 		try {
-			slots.push(parseSlot($, date, $(elements[i]), $(elements[i + 1])));
+			const slot = parseSlot($, date, $(elements[i]), $(elements[i + 1]));
+			if (slot) slots.push(slot);
 		} catch (e) {
 			console.log(e);
 		}
@@ -101,9 +98,10 @@ function parseSlot(
 	const events: event[] = [];
 	if (sessionHtml.hasClass('session')) {
 		const sess = parseSession($, sessionHtml);
-		if (sess.title !== 'Registration') {
-			events.push(sess);
+		if (sess.title === 'Registration') {
+			return null;
 		}
+		events.push(sess);
 	} else {
 		// Session group
 		const sessions = sessionHtml.find('.session');
