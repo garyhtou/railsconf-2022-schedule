@@ -12,13 +12,16 @@ async function getCalendar() {
 
 	// add events to calendar
 	events.forEach((e) => {
-		calendar.createEvent({
-			start: e.start,
-			end: e.end,
-			summary: e.events[0].title,
-			description: e.events[0].author,
-			location: e.events[0].location,
-		});
+		for (let session of e.events) {
+			calendar.createEvent({
+				start: e.start,
+				end: e.end,
+				summary: session.title,
+				description: session.author,
+				location: session.location,
+				// url: session.url,
+			});
+		}
 	});
 
 	return calendar;
