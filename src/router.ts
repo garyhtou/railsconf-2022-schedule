@@ -1,4 +1,7 @@
 import express, { Router, Request, Response } from 'express';
+import { ICalCalendar } from 'ical-generator';
+import { getCalendar } from './helpers/calendar';
+import { getEvents } from './helpers/events';
 
 const router: Router = express.Router();
 
@@ -11,20 +14,18 @@ router.get('/ping', (req: Request, res: Response) => {
 	res.send('pong! 🏓');
 });
 
+const REPO_URL = 'https://github.com/garyhtou/railsconf-2022-schedule';
 router.get('/', (req: Request, res: Response) => {
-	const response = {
-		message:
-			'Hello World! Welcome to the Express Typescript Simple Boilerplate.',
-		boilerplate: {
-			repository:
-				'https://github.com/garyhtou/express-typescript-simple-boilerplate',
-			author: {
-				name: 'Gary Tou',
-				website: 'https://garytou.com',
-			},
-		},
-	};
-	res.json(response);
+	res.redirect(REPO_URL);
+});
+
+router.get('/calendar.ics', async (req: Request, res: Response) => {
+	const calendar: ICalCalendar = await getCalendar();
+	calendar.serve(res, 'RailsConf2022.ics');
+});
+
+router.get('/events', async (req: Request, res: Response) => {
+	res.json(await getEvents());
 });
 
 export default router;
