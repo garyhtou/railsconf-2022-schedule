@@ -1,12 +1,19 @@
-# RailsConf 2022 Schedule
+# RailsConf 2022 Schedule 🗓️
 
-## How to use
+Have you wished to have the RailsConf schedule in your own calendar app? Well, now you can! Subscribe to the
+[`https://railsconf.garytou.com/calendar.ics`](https://railsconf.garytou.com/calendar.ics) ICS link in your favorite
+calendar app such as Google Calendar, Apple Calendar, Outlook, etc.
 
-[`/events`](https://railsconf.garytou.com/events) - JSON list of events
+This `node.js` app (really should be Rails 🙄) web scrapes the RailsConf schedule from their website and formats it as
+an iCal (ics) file!
 
-[`/calendar.ics`](https://railsconf.garytou.com/calendar.ics) - ical (ics) file of events (for subscription in calendar apps)
+## 📎 How to use
 
-## Development
+| [`/calendar.ics`](https://railsconf.garytou.com/calendar.ics) | iCal (ics) file of events (for subscription in calendar apps) |
+| ------------------------------------------------------------- | ------------------------------------------------------------- |
+| [`/events`](https://railsconf.garytou.com/events)             | JSON endpoint of events                                       |
+
+## 🏗️ Development
 
 ```sh
 git clone https://github.com/garyhtou/railsconf-2022-schedule
