@@ -44,7 +44,7 @@ async function getCalendar() {
 	) {
 		const t = title + labels.reduce((acc, label) => acc + ` [${label}]`, '');
 
-		const desLabels = labels ? 'Track: ' + labels.join(', ') + '\n' : '';
+		const desLabels = labels.length ? 'Track: ' + labels.join(', ') + '\n' : '';
 		const desAuthors = author ? author + '\n' : ''; // sometimes the `author` html element also contains an event description
 		const desUrl = url ? '\n' + url : ''; // not all calendar support the URL field, so we add it to the description
 		const des = desLabels + desAuthors + desUrl;
