@@ -10,9 +10,9 @@ const BASE_URL = 'https://railsconf.org/';
 const PT_OFFSET = '-7:00';
 const PT_TZ = 'America/Los_Angeles';
 const DAYS = [
-	{ id: 'tuesday', date: moment.tz('2022-05-16', PT_TZ) },
-	{ id: 'wednesday', date: moment.tz('2022-05-17', PT_TZ) },
-	{ id: 'thursday', date: moment.tz('2022-05-18', PT_TZ) },
+	{ id: 'tuesday', date: moment.tz('2022-05-17', PT_TZ) },
+	{ id: 'wednesday', date: moment.tz('2022-05-18', PT_TZ) },
+	{ id: 'thursday', date: moment.tz('2022-05-19', PT_TZ) },
 ];
 
 export async function getEvents(force: boolean = false) {
