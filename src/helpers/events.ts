@@ -2,8 +2,8 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import moment, { Moment } from 'moment-timezone';
 
-var lastScraped;
-var cache;
+var lastScraped = 0;
+var cache: any[] = null;
 
 const SCHEDULE_URL = 'https://railsconf.org/schedule';
 const BASE_URL = 'https://railsconf.org/';
@@ -15,8 +15,16 @@ const DAYS = [
 	{ id: 'thursday', date: moment.tz('2022-05-18', PT_TZ) },
 ];
 
-export async function getEvents() {
-	// TODO: cache events (expire every 10 minutes)
+export async function getEvents(force: boolean = false) {
+	if (
+		!force &&
+		cache &&
+		lastScraped > moment().subtract(10, 'minutes').unix()
+	) {
+		console.log('Using cached events');
+		return cache;
+	}
+	console.log('Scrapping events');
 
 	const html = await getHtml();
 	const $ = cheerio.load(html);
@@ -30,6 +38,15 @@ export async function getEvents() {
 		const dayEvents = await parseDay($, date, div);
 		events.push(...dayEvents);
 	}
+
+	if (events.length == 0) {
+		// fail safe
+		return cache;
+	}
+
+	// Assume successful scrape. Update cache.
+	cache = events;
+	lastScraped = moment().unix();
 
 	return events;
 }
@@ -67,7 +84,6 @@ function parseSlot(
 		.text()
 		.split('-')
 		.map((s) => s.trim());
-	console.log(times);
 
 	const start = moment(
 		`${date.format('YYYY-MM-DD')} ${times[0]} ${PT_OFFSET}`,
@@ -91,8 +107,6 @@ function parseSlot(
 			events.push(parseSession($, $(sess)));
 		}
 	}
-
-	console.log(events);
 
 	return {
 		start,
