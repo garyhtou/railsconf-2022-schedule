@@ -18,13 +18,17 @@ async function getEvents() {
 	const html = await getHtml();
 	const $ = cheerio.load(html);
 
+	const events = [];
 	for (const day of DAYS) {
 		const dayId = day.id;
 		const date = day.date;
 
 		const div = $(`#${dayId}`);
-		return await parseDay($, date, div);
+		const dayEvents = await parseDay($, date, div);
+		events.push(...dayEvents);
 	}
+
+	return events;
 }
 
 async function parseDay(
