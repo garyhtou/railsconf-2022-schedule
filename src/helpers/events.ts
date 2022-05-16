@@ -7,7 +7,6 @@ var cache: timeslot[] = null;
 
 const SCHEDULE_URL = 'https://railsconf.org/schedule';
 const BASE_URL = 'https://railsconf.org/';
-const PT_OFFSET = '-7:00';
 export const PT_TZ = 'America/Los_Angeles';
 const DAYS = [
 	{ id: 'tuesday', date: moment.tz('2022-05-17', PT_TZ) },
@@ -19,7 +18,7 @@ export async function getEvents(force: boolean = false) {
 	if (
 		!force &&
 		cache &&
-		lastScraped > moment().subtract(10, 'minutes').unix()
+		lastScraped > moment().subtract(4, 'minutes').unix()
 	) {
 		console.log('Using cached events');
 		return cache;
