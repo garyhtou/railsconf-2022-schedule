@@ -6,7 +6,7 @@ var lastScraped;
 var cache;
 
 const SCHEDULE_URL = 'https://railsconf.org/schedule';
-const BASE_URL = 'https://railsconf.org';
+const BASE_URL = 'https://railsconf.org/';
 const DAYS = [
 	{ id: 'tuesday', date: moment('2022-05-16') },
 	{ id: 'wednesday', date: moment('2022-05-17') },
@@ -108,8 +108,11 @@ function parseSession($: cheerio.Root, sessionHtml: cheerio.Cheerio): event {
 	const isBreak = sessionHtml.hasClass('break');
 
 	const title = sessionHtml.find('.session-title').text().trim();
-	const url =
-		BASE_URL + sessionHtml.find('.session-title a').attr('href').toString();
+	const url = sessionHtml
+		.find('.session-title a')
+		.attr('href')
+		?.toString()
+		.trim();
 	const author = sessionHtml.find('.session-author').text().trim(); // TODO: handle "RSVP to join!" link
 	const location = sessionHtml.find('.session-location').text().trim();
 	const labels = sessionHtml
