@@ -1,13 +1,13 @@
 import { getEvents, PT_TZ } from './events';
 import ical, { ICalEvent, ICalEventData } from 'ical-generator';
-import { Moment } from 'moment';
+import { Moment } from 'moment-timezone';
 
 async function getCalendar() {
 	const calendar = ical({
 		name: 'RailsConf 2022',
 		description:
 			'Schedule for RailsConf 2022 in Portland, OR. May 17th - 19th.',
-		timezone: 'America/Los_Angeles',
+		timezone: PT_TZ,
 	});
 
 	const events = await getEvents();

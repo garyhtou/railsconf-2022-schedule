@@ -85,15 +85,17 @@ function parseSlot(
 		.split('-')
 		.map((s) => s.trim());
 
-	const start = moment(
-		`${date.format('YYYY-MM-DD')} ${times[0]} ${PT_OFFSET}`,
-		'YYYY-MM-DD h:mma Z'
+	const start = moment.tz(
+		`${date.format('YYYY-MM-DD')} ${times[0]}`,
+		'YYYY-MM-DD h:mma',
+		PT_TZ
 	);
 	const end =
 		times.length == 2
-			? moment(
-					`${date.format('YYYY-MM-DD')} ${times[1]} ${PT_OFFSET}`,
-					'YYYY-MM-DD h:mma Z'
+			? moment.tz(
+					`${date.format('YYYY-MM-DD')} ${times[1]}`,
+					'YYYY-MM-DD h:mma',
+					PT_TZ
 			  )
 			: start;
 
@@ -157,7 +159,7 @@ export type timeslot = {
 	start: Moment;
 	end: Moment;
 	events: event[];
-}
+};
 
 async function getHtml() {
 	const res = await axios.get(SCHEDULE_URL);
