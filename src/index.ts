@@ -21,6 +21,9 @@ app.use(cors());
 // Logger
 app.use(morgan(':method [:date[web]] :url :status :response-time ms'));
 
+// Serve static files in the `public` directory
+app.use(express.static('public'));
+
 // Add paths (router)
 app.use(router);
 

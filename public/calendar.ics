@@ -1,0 +1,1279 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:RailsConf 2022
+X-WR-CALNAME:RailsConf 2022
+X-WR-CALDESC:Schedule for RailsConf 2022 in Portland, OR. May 17th - 19th.
+TIMEZONE-ID:America/Los_Angeles
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VEVENT
+UID:34cf519d-65d1-441e-a168-6dcf3afadced
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T083000
+DTEND;TZID=America/Los_Angeles:20220517T083000
+SUMMARY:Morning Coffee
+LOCATION:Outside Portland 253
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:8ab16485-7fc0-40ea-9d9f-6550da5fe0a1
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T090000
+DTEND;TZID=America/Los_Angeles:20220517T100000
+SUMMARY:Opening Keynote [Keynote]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Keynote\nXavier Noria\n
+END:VEVENT
+BEGIN:VEVENT
+UID:999b7f9e-4fcb-4594-ad5d-dbdc029c03b7
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T100000
+DTEND;TZID=America/Los_Angeles:20220517T103000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:5e15cbb7-b5e4-4b41-9d42-f737971eed47
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T103000
+DTEND;TZID=America/Los_Angeles:20220517T123000
+SUMMARY:Rails 7 Front End Tooling [Workshop] [Make a switch]
+LOCATION:E145
+DESCRIPTION:Track: Workshop\, Make a switch\nNoel Rappin • RSVP to join!
+ \n\nhttps://railsconf.org//program/workshops#session-1300
+URL;VALUE=URI:https://railsconf.org//program/workshops#session-1300
+END:VEVENT
+BEGIN:VEVENT
+UID:3c8c6859-86ea-438a-86a0-dae864bc09db
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T104000
+DTEND;TZID=America/Los_Angeles:20220517T111000
+SUMMARY:Breaking up with the bundle [Make a switch]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Make a switch\nJoel Hawksley\n\nhttps://railsconf.org//
+ program/sessions#session-1265
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1265
+END:VEVENT
+BEGIN:VEVENT
+UID:a367fb51-f35b-476f-b3cc-d22b507d01bf
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T104000
+DTEND;TZID=America/Los_Angeles:20220517T111000
+SUMMARY:Leveling up From Planning to Production [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nThomas Countz\n\nhttps://railsconf.org//progra
+ m/sessions#session-1314
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1314
+END:VEVENT
+BEGIN:VEVENT
+UID:7daea41f-65c4-48d0-90c3-cf685a8e23d4
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T104000
+DTEND;TZID=America/Los_Angeles:20220517T111000
+SUMMARY:Spacecraft!: Maintaining Rails apps for fun and profit [Explain It
+  Like I'm Five]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: Explain It Like I'm Five\nAnnie Lydens & Jenny Allar\n\
+ nhttps://railsconf.org//program/sessions#session-1278
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1278
+END:VEVENT
+BEGIN:VEVENT
+UID:b63e368b-e0e4-4300-90ec-d956832882ee
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T104000
+DTEND;TZID=America/Los_Angeles:20220517T111000
+SUMMARY:Don't page me! How we limit pager noise [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nChuck Lauer Vose\n\nhttps://railsconf.org//pro
+ gram/sessions#session-1273
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1273
+END:VEVENT
+BEGIN:VEVENT
+UID:b927b6b6-01e4-432b-8077-567e587957f8
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T111000
+DTEND;TZID=America/Los_Angeles:20220517T114000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:f98248ac-e49e-4a9b-9eaf-9d6ac141d83b
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T114000
+DTEND;TZID=America/Los_Angeles:20220517T121000
+SUMMARY:React-ing to Hotwire [Make a Switch]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Make a Switch\nDavid Hill\n\nhttps://railsconf.org//pro
+ gram/sessions#session-1303
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1303
+END:VEVENT
+BEGIN:VEVENT
+UID:340e369a-b3bc-4c1b-8299-ea375999b3c9
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T114000
+DTEND;TZID=America/Los_Angeles:20220517T121000
+SUMMARY:Cultural Fit + Culturesmithing: Everyone Influences Culture [Gener
+ al]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nCasey Watts\n\nhttps://railsconf.org//program/
+ sessions#session-1319
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1319
+END:VEVENT
+BEGIN:VEVENT
+UID:ac2c4d81-6a5d-44d6-9988-884e8dcc07b5
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T114000
+DTEND;TZID=America/Los_Angeles:20220517T121000
+SUMMARY:Rails C With Me: The Interactive Console as a Superpower [Explain 
+ It LIke I'm Five]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: Explain It LIke I'm Five\nSweta Sanghavi\n\nhttps://rai
+ lsconf.org//program/sessions#session-1294
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1294
+END:VEVENT
+BEGIN:VEVENT
+UID:88d09309-227c-4afe-8f6c-d4bcfd84cce5
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T114000
+DTEND;TZID=America/Los_Angeles:20220517T121000
+SUMMARY:RAILS_ENV=demo [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nNathan Griffith\n\nhttps://railsconf.org//prog
+ ram/sessions#session-1284
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1284
+END:VEVENT
+BEGIN:VEVENT
+UID:8eaa1e01-acd0-4d15-954e-4193e1fd6427
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T121000
+DTEND;TZID=America/Los_Angeles:20220517T133000
+SUMMARY:Lunch
+LOCATION:Exhibit Hall D
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:72a433f4-c76c-4d3c-991b-b8fbe4ad282b
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T123000
+DTEND;TZID=America/Los_Angeles:20220517T160000
+SUMMARY:Crafts! [Activity]
+LOCATION:F149
+DESCRIPTION:Track: Activity\nNeed a break and change of pace? Join us in a
+  casual break from the typical conference schedule.\n
+END:VEVENT
+BEGIN:VEVENT
+UID:386ba421-396c-4264-a1c1-2e54c6da2201
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T123000
+DTEND;TZID=America/Los_Angeles:20220517T133000
+SUMMARY:Ruby Podcast [Activity]
+LOCATION:G131
+DESCRIPTION:Track: Activity\nA live recording with hosts of some of the po
+ pular podcasts in the Ruby and Rails communities\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4782ff3c-26ca-4019-8af6-72616dce9d12
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T123000
+DTEND;TZID=America/Los_Angeles:20220517T133000
+SUMMARY:Test Double Lab [Activity]
+LOCATION:E148
+DESCRIPTION:Track: Activity\nDouble Up with Test Double! All these talks h
+ ave you ready to do some programming? Bring a problem to work on (or borro
+ w one of ours) and you can pair up with a Double Agent to solve it.\n\nhtt
+ ps://railsconf.org/https://twitter.com/testdouble/status/15265632776727470
+ 08
+URL;VALUE=URI:https://railsconf.org/https://twitter.com/testdouble/status/
+ 1526563277672747008
+END:VEVENT
+BEGIN:VEVENT
+UID:d263921a-6aa9-442c-9e88-95e93233e02a
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T133000
+DTEND;TZID=America/Los_Angeles:20220517T150000
+SUMMARY:Advanced Active Record - Building a composable query builder [Work
+ shop]
+LOCATION:D135
+DESCRIPTION:Track: Workshop\nColleen Schnettler & Aaron Francis • RSVP t
+ o join!\n\nhttps://railsconf.org/program/workshops#session-1280
+URL;VALUE=URI:https://railsconf.org/program/workshops#session-1280
+END:VEVENT
+BEGIN:VEVENT
+UID:fcccd2c1-aaf8-4ac7-b248-018ae4bd6c70
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T133000
+DTEND;TZID=America/Los_Angeles:20220517T160000
+SUMMARY:Upgrading Rails: The Dual-Boot Way [Workshop]
+LOCATION:E145
+DESCRIPTION:Track: Workshop\nErnesto Tagwerker\, Luciano Becerra\, Mike To
+ ppa • RSVP to join!\n\nhttps://railsconf.org//program/workshops#session-
+ 1288
+URL;VALUE=URI:https://railsconf.org//program/workshops#session-1288
+END:VEVENT
+BEGIN:VEVENT
+UID:8f2419f1-036c-48c8-b702-fef60eb3d7bf
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T133000
+DTEND;TZID=America/Los_Angeles:20220517T140000
+SUMMARY:Caching Without Marshal [Make a Switch]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Make a Switch\nChris Salzberg\n\nhttps://railsconf.org/
+ /program/sessions#session-1360
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1360
+END:VEVENT
+BEGIN:VEVENT
+UID:b05f4abb-feef-4336-aad6-026c106abe7f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T133000
+DTEND;TZID=America/Los_Angeles:20220517T140000
+SUMMARY:Do You Trust Me? [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nJohn DeWyze\n\nhttps://railsconf.org//program/
+ sessions#session-1277
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1277
+END:VEVENT
+BEGIN:VEVENT
+UID:b895ec96-52d5-4c6d-8e20-6f3b9e3a10c8
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T133000
+DTEND;TZID=America/Los_Angeles:20220517T140000
+SUMMARY:If You Know Heroku\, You Can Use Kubernetes [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nJamie Gaskins\n\nhttps://railsconf.org//progra
+ m/sessions#session-1282
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1282
+END:VEVENT
+BEGIN:VEVENT
+UID:e14967ae-8536-405d-a12f-f5f4ad549e8a
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T140000
+DTEND;TZID=America/Los_Angeles:20220517T143000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:009c2972-c6af-4de6-8f31-3d6cff18798b
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T143000
+DTEND;TZID=America/Los_Angeles:20220517T150000
+SUMMARY:Event Streaming on Rails [Make a Switch]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Make a Switch\nBrad Urani\n\nhttps://railsconf.org//pro
+ gram/sessions#session-1295
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1295
+END:VEVENT
+BEGIN:VEVENT
+UID:1cf6a467-5771-40a9-a11e-d6200430d7ca
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T143000
+DTEND;TZID=America/Los_Angeles:20220517T150000
+SUMMARY:The Little Engines That Could [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nMina Slater\n\nhttps://railsconf.org//program/
+ sessions#session-1286
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1286
+END:VEVENT
+BEGIN:VEVENT
+UID:9a2205fb-5038-4a1a-b6d5-128220f6f648
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T143000
+DTEND;TZID=America/Los_Angeles:20220517T150000
+SUMMARY:Hold my thread: concurrency in Ruby [Explain it like I'm five]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: Explain it like I'm five\nClara Morgeneyer\n\nhttps://r
+ ailsconf.org//program/sessions#session-1291
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1291
+END:VEVENT
+BEGIN:VEVENT
+UID:fc569296-23a7-4830-be7d-065cb34e0c13
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T150000
+DTEND;TZID=America/Los_Angeles:20220517T153000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:2cd57b33-8ff3-4812-b499-310da1bb816f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T153000
+DTEND;TZID=America/Los_Angeles:20220517T160000
+SUMMARY:Kuby: Active Deployment for Rails Apps [Make a Switch]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Make a Switch\nCameron Dutro\n\nhttps://railsconf.org//
+ program/sessions#session-1264
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1264
+END:VEVENT
+BEGIN:VEVENT
+UID:4a78f068-bcf0-46c5-96f1-794f62639ea7
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T153000
+DTEND;TZID=America/Los_Angeles:20220517T160000
+SUMMARY:Scaling Rails with JRuby in 2022 [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nCharles Oliver Nutter\n\nhttps://railsconf.org
+ //program/sessions#session-1316
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1316
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc30c32-524a-4f8c-b708-5e6b2d9c29e0
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T153000
+DTEND;TZID=America/Los_Angeles:20220517T160000
+SUMMARY:ELI5: A Game Show on Rails [Explain it like I'm five]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: Explain it like I'm five\nAndy Glass\n\nhttps://railsco
+ nf.org//program/sessions#session-1304
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1304
+END:VEVENT
+BEGIN:VEVENT
+UID:957eee67-5c36-41f5-8743-775e07fd8a03
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T153000
+DTEND;TZID=America/Los_Angeles:20220517T160000
+SUMMARY:"Build vs Buy" on Rails [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nColin Loretz\n\nhttps://railsconf.org//program
+ /sessions#session-1326
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1326
+END:VEVENT
+BEGIN:VEVENT
+UID:7a14fd20-41f4-4159-9acd-16295eed54ce
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T160000
+DTEND;TZID=America/Los_Angeles:20220517T163000
+SUMMARY:Cupcake Break
+LOCATION:Outside Portland BR 253
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:883133bd-7144-453f-bf5b-60733c441476
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T163000
+DTEND;TZID=America/Los_Angeles:20220517T173000
+SUMMARY:End of the day keynote [Keynote]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Keynote\nAaron Patterson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:44b5894e-0bed-4976-b546-a67483497758
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220517T180000
+DTEND;TZID=America/Los_Angeles:20220517T220000
+SUMMARY:WNB.rb Networking Reception
+LOCATION:Enso Winery • 1416 SE Stark St.
+DESCRIPTION:Do you identify as a woman or non-binary person? If so\, you'r
+ e invited to WNB.rb's RailsConf networking reception! Join us for an oppor
+ tunity to meet other women and non-binary folks in the programming communi
+ ty. All RailsConf attendees MUST have their conference pass for entry to t
+ he venue! RSVP to join!\n\nhttps://railsconf.org/https://www.eventbrite.co
+ m/e/railsconf-2022-rsvps-for-networking-events-tickets-317317534287
+URL;VALUE=URI:https://railsconf.org/https://www.eventbrite.com/e/railsconf
+ -2022-rsvps-for-networking-events-tickets-317317534287
+END:VEVENT
+BEGIN:VEVENT
+UID:96e19b2a-0368-4ce3-9aee-8a830bbb75df
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T083000
+DTEND;TZID=America/Los_Angeles:20220518T083000
+SUMMARY:Morning Coffee
+LOCATION:Outside Portland 253
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:a40d95fe-d4b8-4a09-ae1c-38559d3650d6
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T084500
+DTEND;TZID=America/Los_Angeles:20220518T100000
+SUMMARY:Opening Announcements & Keynote [Keynote]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Keynote\nEileen Uchitelle\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0f64b696-7001-42bc-ba88-877ffa240a12
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T094500
+DTEND;TZID=America/Los_Angeles:20220518T173000
+SUMMARY:Exhibit Hall Open [Exhibit]
+LOCATION:Exhibit Hall D
+DESCRIPTION:Track: Exhibit\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e8604159-99d2-428f-8dc5-87544caaece3
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T100000
+DTEND;TZID=America/Los_Angeles:20220518T103000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:29ede786-41f8-4149-93ae-425dc9401ec0
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T103000
+DTEND;TZID=America/Los_Angeles:20220518T130000
+SUMMARY:Open Source is for Everyone [Workshop] [Open Source Maintenance]
+LOCATION:E145
+DESCRIPTION:Track: Workshop\, Open Source Maintenance\nGia Coelho & Linda 
+ Goldstein • RSVP to join!\n\nhttps://railsconf.org//program/workshops#se
+ ssion-1274
+URL;VALUE=URI:https://railsconf.org//program/workshops#session-1274
+END:VEVENT
+BEGIN:VEVENT
+UID:11b6269f-6b59-41cc-9909-82af66b9cf96
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T103000
+DTEND;TZID=America/Los_Angeles:20220518T110000
+SUMMARY:A Rails performance guidebook: from 0 to 1B requests/day [General]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: General\nCristian Planas\n\nhttps://railsconf.org//prog
+ ram/sessions#session-1310
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1310
+END:VEVENT
+BEGIN:VEVENT
+UID:b0471c2f-faf8-4684-b41f-54bf01439535
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T103000
+DTEND;TZID=America/Los_Angeles:20220518T110000
+SUMMARY:Browser History Confessional: Searching My Recent Searches [Genera
+ l]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nKevin Murphy\n\nhttps://railsconf.org//program
+ /sessions#session-1262
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1262
+END:VEVENT
+BEGIN:VEVENT
+UID:ed756c64-6ca5-49de-be4d-711e275dad0c
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T103000
+DTEND;TZID=America/Los_Angeles:20220518T110000
+SUMMARY:Ruby Archaeology [General]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nNick Schwaderer\n\nhttps://railsconf.org//prog
+ ram/sessions#session-1309
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1309
+END:VEVENT
+BEGIN:VEVENT
+UID:e611e816-e6a5-434c-9cde-02e6e14136fb
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T103000
+DTEND;TZID=America/Los_Angeles:20220518T110000
+SUMMARY:Puny to Powerful PostgresSQL Rails Apps [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nAndrew Atkinson\n\nhttps://railsconf.org//prog
+ ram/sessions#session-1276
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1276
+END:VEVENT
+BEGIN:VEVENT
+UID:a7c32d3c-7869-4f44-81e5-a7facd748ed7
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T103000
+DTEND;TZID=America/Los_Angeles:20220518T110000
+SUMMARY:How to build a diverse engineering team [Sponsor]
+LOCATION:Portland BR 256
+DESCRIPTION:Track: Sponsor\nWrapbook • Zaid Zawaideh and Jessica Lawrenc
+ e • Strategies and learnings from Wrapbook in building a diverse and inc
+ lusive team.\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1fca9f66-16e1-4183-a2ff-c74b4f4b05a2
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T110000
+DTEND;TZID=America/Los_Angeles:20220518T112000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:a7099995-f446-482e-860f-5ea7a8bcb7dc
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T130000
+DTEND;TZID=America/Los_Angeles:20220518T230000
+SUMMARY:Crafts! [Activity]
+LOCATION:F149
+DESCRIPTION:Track: Activity\nNeed a break and change of pace? Join us in a
+  casual break from the typical conference schedule.\n
+END:VEVENT
+BEGIN:VEVENT
+UID:884768e1-bec4-4bb3-8016-20eee32a5682
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T112000
+DTEND;TZID=America/Los_Angeles:20220518T115000
+SUMMARY:Unboxing Rails 7: what's new in the latest major version [General]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: General\nClaudio Baccigalupo\n\nhttps://railsconf.org//
+ program/sessions#session-1268
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1268
+END:VEVENT
+BEGIN:VEVENT
+UID:e50a4f06-9f41-4b07-9e3d-e3f8b6baf894
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T112000
+DTEND;TZID=America/Los_Angeles:20220518T115000
+SUMMARY:Computer science you might (not) want to know [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nAndy Andrea\n\nhttps://railsconf.org//program/
+ sessions#session-1275
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1275
+END:VEVENT
+BEGIN:VEVENT
+UID:1fdc494b-15c0-4688-9950-e6ff20427b2b
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T112000
+DTEND;TZID=America/Los_Angeles:20220518T115000
+SUMMARY:Upgrading Rails: Everyone can do it and here's how [General]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nAndrea Fomera\n\nhttps://railsconf.org//progra
+ m/sessions#session-1322
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1322
+END:VEVENT
+BEGIN:VEVENT
+UID:504847de-57ee-4f6e-87eb-13e9cb0f9374
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T112000
+DTEND;TZID=America/Los_Angeles:20220518T115000
+SUMMARY:How music works\, using Ruby [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nThijs Cadier\n\nhttps://railsconf.org//program
+ /sessions#session-1301
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1301
+END:VEVENT
+BEGIN:VEVENT
+UID:e4fa39b5-5ebd-4366-a863-64672a9b31ab
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T112000
+DTEND;TZID=America/Los_Angeles:20220518T115000
+SUMMARY:Diversity in Engineering\; a community perspective [Sponsor]
+LOCATION:Portland BR 256
+DESCRIPTION:Track: Sponsor\nShopify • Caterina Paun\, Stephanie Minn and
+  Maya Toussaint • In this session\, we will dive into the topic of reten
+ tion within diversity in engineering\; Get to hear from Women Who Code\, W
+ NB.rb\, and Shopify Engineering on how we can all play a role in contribut
+ ing to not only increasing diversity but retaining talent in the field of 
+ engineering.\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2de26397-46d4-43c9-acdc-b9555d822de3
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T120000
+DTEND;TZID=America/Los_Angeles:20220518T133000
+SUMMARY:Lunch
+LOCATION:Exhibit Hall D
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc18051-cee4-4c08-97a5-2c20e1ec0011
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T123000
+DTEND;TZID=America/Los_Angeles:20220518T133000
+SUMMARY:Ruby MX (Podcast) [Activity]
+LOCATION:G131
+DESCRIPTION:Track: Activity\nA Mexican and Latin American ruby engineers m
+ eetup! Let's talk about experiences and tips for newcomers to Ruby communi
+ ties.\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0e1c6e40-5b9d-4a79-8636-8c8034f35cfd
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T123000
+DTEND;TZID=America/Los_Angeles:20220518T133000
+SUMMARY:Test Double Lab [Activity]
+LOCATION:E148
+DESCRIPTION:Track: Activity\nDouble Up with Test Double! All these talks h
+ ave you ready to do some programming? Bring a problem to work on (or borro
+ w one of ours) and you can pair up with a Double Agent to solve it.\n\nhtt
+ ps://railsconf.org/https://twitter.com/testdouble/status/15265632776727470
+ 08
+URL;VALUE=URI:https://railsconf.org/https://twitter.com/testdouble/status/
+ 1526563277672747008
+END:VEVENT
+BEGIN:VEVENT
+UID:3cc30ea4-116f-42d5-84e4-9cfde2c2d411
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T133000
+DTEND;TZID=America/Los_Angeles:20220518T150000
+SUMMARY:An Intro to Tmux and Vim Configs [Workshop] [General]
+LOCATION:D135
+DESCRIPTION:Track: Workshop\, General\nBarrett Clark • RSVP to join!\n\n
+ https://railsconf.org//program/workshops#session-1327
+URL;VALUE=URI:https://railsconf.org//program/workshops#session-1327
+END:VEVENT
+BEGIN:VEVENT
+UID:65411010-49ce-4f1c-a3cf-aaefe1476e69
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T133000
+DTEND;TZID=America/Los_Angeles:20220518T163000
+SUMMARY:Lightning Talks
+LOCATION:E145
+DESCRIPTION:A lightning talk is a very short presentation delivered by dif
+ ferent speakers in a single session. Sign up at the conference to present 
+ a topic.\n\nhttps://railsconf.org/#
+URL;VALUE=URI:https://railsconf.org/#
+END:VEVENT
+BEGIN:VEVENT
+UID:c1b6dc1f-d08c-4d0d-b3f0-3be646190bfd
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T133000
+DTEND;TZID=America/Los_Angeles:20220518T140000
+SUMMARY:GraphQL and Rails beyond HTTP APIs [General]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: General\nGui Vieira\n\nhttps://railsconf.org//program/s
+ essions#session-1320
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1320
+END:VEVENT
+BEGIN:VEVENT
+UID:4419fd49-13d0-4ad1-9c4f-8332f930b57d
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T133000
+DTEND;TZID=America/Los_Angeles:20220518T140000
+SUMMARY:Gem install: What could go wrong? [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nAshley Ellis Pierce & Betty Li\n\nhttps://rail
+ sconf.org//program/sessions#session-1279
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1279
+END:VEVENT
+BEGIN:VEVENT
+UID:dc165429-77b8-4ee8-a3f9-efebb33910cc
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T133000
+DTEND;TZID=America/Los_Angeles:20220518T140000
+SUMMARY:Let Your Body Lead: Career Planning With Somatics [General]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nAmy Newell\n\nhttps://railsconf.org//program/s
+ essions#session-1317
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1317
+END:VEVENT
+BEGIN:VEVENT
+UID:42f2b97c-3683-4405-8f2b-01cf3c9fdd88
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T133000
+DTEND;TZID=America/Los_Angeles:20220518T140000
+SUMMARY:Service Denied! Understanding How Regex DoS Attacks Work [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nKevin Menard\n\nhttps://railsconf.org//program
+ /sessions#session-1293
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1293
+END:VEVENT
+BEGIN:VEVENT
+UID:6adf77be-6b56-489a-813c-49524f53a73f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T133000
+DTEND;TZID=America/Los_Angeles:20220518T140000
+SUMMARY:Bringing Your Rails Monolith Along as the Business Grows [Sponsor]
+LOCATION:Portland BR 256
+DESCRIPTION:Track: Sponsor\nOntra • Carrick Rogers • Since 2014\, Ontr
+ a has learned how to assist lawyers in processing a variety of legal contr
+ acts and to do that we've had to constantly update our Rails monolith. Com
+ e learn how we accomplished that while staying on the same Rails monolith 
+ we launched the business on and keeping the code base clean.\n
+END:VEVENT
+BEGIN:VEVENT
+UID:be1b200f-eeb2-4779-80b5-932102a782b0
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T140000
+DTEND;TZID=America/Los_Angeles:20220518T142000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:052bd997-4157-4777-a2f8-377b3cab3abb
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T142000
+DTEND;TZID=America/Los_Angeles:20220518T145000
+SUMMARY:Ooops! You named it wrong. What now? [General]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: General\nIan Norris & Melissa Hunt Glickman\n\nhttps://
+ railsconf.org//program/sessions#session-1318
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1318
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e96e60-338c-4628-8c9a-767af3f30b36
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T142000
+DTEND;TZID=America/Los_Angeles:20220518T145000
+SUMMARY:The Queue Continuum: Applied Queuing Theory [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nJustin Bowen\n\nhttps://railsconf.org//program
+ /sessions#session-1299
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1299
+END:VEVENT
+BEGIN:VEVENT
+UID:ef764fc9-0251-42d6-8ebf-11e0a908b9d8
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T142000
+DTEND;TZID=America/Los_Angeles:20220518T145000
+SUMMARY:Geolocation EXPLAINed [General]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nKevin Lesht\n\nhttps://railsconf.org//program/
+ sessions#session-1323
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1323
+END:VEVENT
+BEGIN:VEVENT
+UID:0f7683a9-5f3c-495d-a2ca-6073590f8d2f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T142000
+DTEND;TZID=America/Los_Angeles:20220518T145000
+SUMMARY:Call me back\, Postgres [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nIfat Ribon\n\nhttps://railsconf.org//program/s
+ essions#session-1362
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1362
+END:VEVENT
+BEGIN:VEVENT
+UID:cbebf12f-bade-4fe0-8766-147f349a155b
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T142000
+DTEND;TZID=America/Los_Angeles:20220518T145000
+SUMMARY:Growing Your Background Job Knowledge [Sponsor]
+LOCATION:Portland BR 256
+DESCRIPTION:Track: Sponsor\nWeedmaps • Jake Anderson • Background jobs
+  are used all over Rails applications. For a seasoned Rails developer\, wo
+ rking with jobs may be part of their every day life. But for someone just 
+ getting into Rails\, there's a lot to unpack. Let's go beyond creating the
+  class and understand why we're reaching for background jobs to begin with
+  and the various utilities ActiveJob provides us. This talk is meant for t
+ hose who are just getting starting with background jobs. It's also for tho
+ se that want to better understand how background jobs could be used\, the 
+ different libraries available to choose from\, and the powerful sets of ut
+ ilities provided to you out of the box by ActiveJob.\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d31f1a47-e519-434a-a09c-2d9a830d3511
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T150000
+DTEND;TZID=America/Los_Angeles:20220518T160000
+SUMMARY:Job Fair
+LOCATION:F149
+DESCRIPTION:Whether you're looking for your next career move or are simply
+  interested in learning about companies in the industry\, you won't want t
+ o miss the RailsConf Job Fair. Brought to you by: Turing School of Softwar
+ e & Design\n\nhttps://railsconf.org/#
+URL;VALUE=URI:https://railsconf.org/#
+END:VEVENT
+BEGIN:VEVENT
+UID:3e0e05f2-70d1-4cdc-b6a7-bba951925208
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T161000
+DTEND;TZID=America/Los_Angeles:20220518T173000
+SUMMARY:Happy Hour
+LOCATION:Exhibit Hall D
+DESCRIPTION:Enjoy a snack and socialize. Alcoholic and non-alcoholic bever
+ ages are available!\n\nhttps://railsconf.org/#
+URL;VALUE=URI:https://railsconf.org/#
+END:VEVENT
+BEGIN:VEVENT
+UID:dcdc10d6-9360-4d28-b124-63495df3c4a4
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220518T190000
+DTEND;TZID=America/Los_Angeles:20220518T230000
+SUMMARY:Board Game Night
+LOCATION:Adams Room (Executive Meeting Center)\, DoubleTree Hotel
+DESCRIPTION:Bring your favorite game and join us for Board Game Night. Thi
+ s is a casual evening of fun with fellow Rubyists! You bring the games\, w
+ e'll provide snacks and beverages! Brought to you by Contributed Systems\n
+END:VEVENT
+BEGIN:VEVENT
+UID:128a028b-7e72-4d05-bf33-6194ff6ee24f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T073000
+DTEND;TZID=America/Los_Angeles:20220519T083000
+SUMMARY:WNB.rb Breakfast Social
+LOCATION:Adams Room (Executive Meeting Center)\, DoubleTree Hotel
+DESCRIPTION:Join WNB.rb for a special breakfast social on the final mornin
+ g of RailsConf! Women and non-binary folks of all experience levels welcom
+ e!\n\nhttps://railsconf.org/https://www.eventbrite.com/e/railsconf-2022-rs
+ vps-for-networking-events-tickets-317317534287
+URL;VALUE=URI:https://railsconf.org/https://www.eventbrite.com/e/railsconf
+ -2022-rsvps-for-networking-events-tickets-317317534287
+END:VEVENT
+BEGIN:VEVENT
+UID:4324cebe-9f50-4b0d-8c19-64877ef55f22
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T083000
+DTEND;TZID=America/Los_Angeles:20220519T083000
+SUMMARY:Morning Coffee
+LOCATION:Outside Portland 253
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:0056ce8e-d3ba-4fc4-ae66-4912963a007f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T084500
+DTEND;TZID=America/Los_Angeles:20220519T100000
+SUMMARY:Opening Announcements & Keynote [Keynote]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Keynote\nCrystal Tia Martin\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4d29d311-d5e9-4273-88a0-f3b6983cedce
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T100000
+DTEND;TZID=America/Los_Angeles:20220519T103000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:4681cc8e-d1bf-4513-9cd7-698efe795c39
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T103000
+DTEND;TZID=America/Los_Angeles:20220519T130000
+SUMMARY:Gaps in the Magic - Exploiting Security Edge Cases in Rails [Works
+ hop] [General]
+LOCATION:E145
+DESCRIPTION:Track: Workshop\, General\nMark Hoopes & Heidi Hoopes • RSVP
+  to join!\n\nhttps://railsconf.org//program/workshops#session-1308
+URL;VALUE=URI:https://railsconf.org//program/workshops#session-1308
+END:VEVENT
+BEGIN:VEVENT
+UID:9f3ba338-1cf3-42f9-b0f7-675f4d2ed381
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T104000
+DTEND;TZID=America/Los_Angeles:20220519T111000
+SUMMARY:O(1)\, O(n) and O(#$*&!) [General]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: General\nStephen Prater\n\nhttps://railsconf.org//progr
+ am/sessions#session-1270
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1270
+END:VEVENT
+BEGIN:VEVENT
+UID:8cdbe667-8b07-41d5-8435-67b844942cf3
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T104000
+DTEND;TZID=America/Los_Angeles:20220519T111000
+SUMMARY:The Mrs Triggs Problem [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nAndy Croll\n\nhttps://railsconf.org//program/s
+ essions#session-1271
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1271
+END:VEVENT
+BEGIN:VEVENT
+UID:61a44d8a-39b4-48ab-b752-cb8dc1329797
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T104000
+DTEND;TZID=America/Los_Angeles:20220519T111000
+SUMMARY:Laying the culture and technical foundation for Big Rails [General
+ ]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nAlex Evanczuk\n\nhttps://railsconf.org//progra
+ m/sessions#session-1321
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1321
+END:VEVENT
+BEGIN:VEVENT
+UID:f0826069-ae0e-4464-a6ad-4ac0bf0f62ce
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T104000
+DTEND;TZID=America/Los_Angeles:20220519T111000
+SUMMARY:Functional Programming in Plain Terms [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nEric Weinstein\n\nhttps://railsconf.org//progr
+ am/sessions#session-1297
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1297
+END:VEVENT
+BEGIN:VEVENT
+UID:cdfa95a6-46f1-435a-ab19-a12dc3fb9ef0
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T104000
+DTEND;TZID=America/Los_Angeles:20220519T111000
+SUMMARY:You have two seconds to respond [Sponsor]
+LOCATION:Portland BR 256
+DESCRIPTION:Track: Sponsor\nAtoB • Justin Powers and Ryan Wells • Low-
+ latency credit authorization and fraud detection in the world of trucking\
+ n
+END:VEVENT
+BEGIN:VEVENT
+UID:1ea854e6-d5c7-45cc-af44-8acb8fbe43e8
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T111000
+DTEND;TZID=America/Los_Angeles:20220519T114000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:d2dd103a-94d2-4a8a-9442-af7f46d62975
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T114000
+DTEND;TZID=America/Los_Angeles:20220519T121000
+SUMMARY:Git your PR accepted. Rebase your changes like a pro [Open source 
+ maintenance]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Open source maintenance\nDaniel Magliola\n\nhttps://rai
+ lsconf.org//program/sessions#session-1306
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1306
+END:VEVENT
+BEGIN:VEVENT
+UID:1766f3b6-461b-4986-a030-bc8580ff855e
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T114000
+DTEND;TZID=America/Los_Angeles:20220519T121000
+SUMMARY:Don't touch that! [Explain it like I'm five]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: Explain it like I'm five\nAdam Cuppy\n\nhttps://railsco
+ nf.org//program/sessions#session-1267
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1267
+END:VEVENT
+BEGIN:VEVENT
+UID:edf0618d-5320-42b0-863f-1c51b92c9340
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T114000
+DTEND;TZID=America/Los_Angeles:20220519T121000
+SUMMARY:Your Service Layer Needn't be Fancy\, It Just Needs to Exist [Gene
+ ral]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nDavid Copeland\n\nhttps://railsconf.org//progr
+ am/sessions#session-1281
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1281
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb3a416-9801-4a23-9dcc-5b5add3513c6
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T114000
+DTEND;TZID=America/Los_Angeles:20220519T121000
+SUMMARY:The pitfalls of realtime-ification [General]
+LOCATION:D140
+DESCRIPTION:Track: General\nVladimir Dementyev\n\nhttps://railsconf.org//p
+ rogram/sessions#session-1266
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1266
+END:VEVENT
+BEGIN:VEVENT
+UID:911433c7-4427-43f8-827c-c830a75982c2
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T114000
+DTEND;TZID=America/Los_Angeles:20220519T121000
+SUMMARY:More Engineers\, More Problems: Solutions for Big Teams [Sponsor]
+LOCATION:Portland BR 256
+DESCRIPTION:Track: Sponsor\nChime • David Trejo\, Chris Dwan\, Brian Les
+ perance • Keeping a large engineering team aligned is hard. In this sess
+ ion\, three members of Chime Engineering will talk about a different facet
+  of working with a large engineering staff. How can you create security st
+ andards\, and make them visible enough to build a team-wide security minds
+ et? How can you create an engaging onboarding session to help new team mem
+ bers connect with the information they need? How can Rails ActiveSupport b
+ e more than just a lot of string tools and instead be used to promote comm
+ on solutions to problems and deliver reliable software? Plus\, learn about
+  Chime and Chime Engineering!\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9240e1cf-39d7-4cb3-870c-8cf85f206885
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T121000
+DTEND;TZID=America/Los_Angeles:20220519T134000
+SUMMARY:Lunch
+LOCATION:Exhibit Hall D
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:980f9837-d93c-4318-bc9e-f4dd3802b34f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T133000
+DTEND;TZID=America/Los_Angeles:20220519T160000
+SUMMARY:Gradually Typing Your Rails Application: The Easy Way [Workshop] [
+ General]
+LOCATION:E145
+DESCRIPTION:Track: Workshop\, General\nAlexandre Terrasa & Ryan Brushett 
+ • RSVP to join!\n\nhttps://railsconf.org//program/workshops#session-1307
+URL;VALUE=URI:https://railsconf.org//program/workshops#session-1307
+END:VEVENT
+BEGIN:VEVENT
+UID:b5b10c2d-eaec-4ffd-8f7d-89c25236a2cc
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T134000
+DTEND;TZID=America/Los_Angeles:20220519T141000
+SUMMARY:Open the gate a little: strategies to protect and share data [Open
+  source maintenance]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Open source maintenance\nFernando Perales\n\nhttps://ra
+ ilsconf.org//program/sessions#session-1305
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1305
+END:VEVENT
+BEGIN:VEVENT
+UID:4b1c323c-7997-4daa-81d9-b297a4445164
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T134000
+DTEND;TZID=America/Los_Angeles:20220519T141000
+SUMMARY:Your TDD Treasure Map [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nChristopher "Aji" Slater\n\nhttps://railsconf.
+ org//program/sessions#session-1285
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1285
+END:VEVENT
+BEGIN:VEVENT
+UID:83db3eb3-0ec1-4053-bd8e-a7474875c34d
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T134000
+DTEND;TZID=America/Los_Angeles:20220519T141000
+SUMMARY:Pictures Of You\, Pictures Of Me\, Crypto Steganography [General]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nSean Marcia\n\nhttps://railsconf.org//program/
+ sessions#session-1315
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1315
+END:VEVENT
+BEGIN:VEVENT
+UID:6003b403-ae42-443e-b7bc-3ac2ce4550d5
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T134000
+DTEND;TZID=America/Los_Angeles:20220519T141000
+SUMMARY:Start Your Ruby Podcast Today! No Experience Required [Community C
+ ontent]
+LOCATION:D140
+DESCRIPTION:Track: Community Content\nJason Charnes\, Andrew Mason\, & Chr
+ is Oliver\n\nhttps://railsconf.org//program/sessions#session-1292
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1292
+END:VEVENT
+BEGIN:VEVENT
+UID:8d4bde53-1cd0-4522-920e-b5f5ccafa8d9
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T134000
+DTEND;TZID=America/Los_Angeles:20220519T141000
+SUMMARY:Finding the needle in the stack trace: APM Logs-in-Context [Sponso
+ r]
+LOCATION:Portland BR 256
+DESCRIPTION:Track: Sponsor\nNew Relic • Kayla Reopelle and Mike Neville-
+ O'Neill • See the exact log lines you need to detect and resolve problem
+ s using New Relic's Logs-In-Context. What's better? Automatic log forwardi
+ ng puts your logs in Application Performance Monitoring once you upgrade t
+ o a supported agent. This improved feature links errors\, traces\, and mor
+ e to your application's logs without searching. We'll share customer stori
+ es and show you how it works under the hood.\n\nhttps://railsconf.org/http
+ s://newrelic.com/blog/nerdlog/apm-logs-in-context
+URL;VALUE=URI:https://railsconf.org/https://newrelic.com/blog/nerdlog/apm-
+ logs-in-context
+END:VEVENT
+BEGIN:VEVENT
+UID:d1da3e23-be24-49df-a37b-2bf77d481cee
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T141000
+DTEND;TZID=America/Los_Angeles:20220519T144000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:d637c1a5-108d-41f4-bc81-e16f4f9c12e9
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T144000
+DTEND;TZID=America/Los_Angeles:20220519T151000
+SUMMARY:Reflecting on Active Record Associations [General]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: General\nDaniel Colson\n\nhttps://railsconf.org//progra
+ m/sessions#session-1272
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1272
+END:VEVENT
+BEGIN:VEVENT
+UID:58107c9b-8ca5-40c8-8653-fb5881a29eab
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T144000
+DTEND;TZID=America/Los_Angeles:20220519T151000
+SUMMARY:Your test suite is making too many database calls! [General]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nJoël Quenneville\n\nhttps://railsconf.org//pr
+ ogram/sessions#session-1287
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1287
+END:VEVENT
+BEGIN:VEVENT
+UID:98b3d7b7-4789-4f52-9b4b-51c12cb4287f
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T144000
+DTEND;TZID=America/Los_Angeles:20220519T151000
+SUMMARY:Come on in! Making yourself at home in a new codebase [General]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nMercedes Bernard\n\nhttps://railsconf.org//pro
+ gram/sessions#session-1289
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1289
+END:VEVENT
+BEGIN:VEVENT
+UID:865c003b-44b0-4952-94fc-e0165c29cd5e
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T144000
+DTEND;TZID=America/Los_Angeles:20220519T151000
+SUMMARY:Behind the Lemurs - Creating an Illustrated Talk [Community Conten
+ t]
+LOCATION:D140
+DESCRIPTION:Track: Community Content\nBrandon Weaver\n\nhttps://railsconf.
+ org//program/sessions#session-1283
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1283
+END:VEVENT
+BEGIN:VEVENT
+UID:e4206481-f939-4bd6-b27d-44316d7ff080
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T151000
+DTEND;TZID=America/Los_Angeles:20220519T154000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:5103d316-2964-4af2-acf7-8809052bf88b
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T154000
+DTEND;TZID=America/Los_Angeles:20220519T161000
+SUMMARY:Experimental Patterns in ActiveRecord [General]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: General\nJohn Crepezzi\n\nhttps://railsconf.org//progra
+ m/sessions#session-1324
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1324
+END:VEVENT
+BEGIN:VEVENT
+UID:48c52337-b911-457b-961b-144f391ca8cb
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T154000
+DTEND;TZID=America/Los_Angeles:20220519T161000
+SUMMARY:Testing legacy code when you dislike tests (and legacy code) [Gene
+ ral]
+LOCATION:Portland BR 254
+DESCRIPTION:Track: General\nMaeve Revels\n\nhttps://railsconf.org//program
+ /sessions#session-1298
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1298
+END:VEVENT
+BEGIN:VEVENT
+UID:2b66ffa8-56cd-41c5-91f3-50cc675273ec
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T154000
+DTEND;TZID=America/Los_Angeles:20220519T161000
+SUMMARY:A Rails Developer's Guide To The Ruby VM [General]
+LOCATION:Portland BR 255
+DESCRIPTION:Track: General\nMaple Ong\n\nhttps://railsconf.org//program/se
+ ssions#session-1312
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1312
+END:VEVENT
+BEGIN:VEVENT
+UID:a26721bb-042d-41cb-86c4-4b0ecffd7a24
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T154000
+DTEND;TZID=America/Los_Angeles:20220519T161000
+SUMMARY:Learn it\, Do it\, Teach it: How to Unstick Our Middle Devs [Gener
+ al]
+LOCATION:Portland D140
+DESCRIPTION:Track: General\nChelsea Kaufman\n\nhttps://railsconf.org//prog
+ ram/sessions#session-1363
+URL;VALUE=URI:https://railsconf.org//program/sessions#session-1363
+END:VEVENT
+BEGIN:VEVENT
+UID:679a3329-28f7-4e97-bacb-61e988542e70
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T161000
+DTEND;TZID=America/Los_Angeles:20220519T164000
+SUMMARY:Break
+LOCATION:Convention Center
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:5abf6a52-8a03-41c1-88b3-e899cf5e4b3b
+SEQUENCE:0
+DTSTAMP:20220613T081619
+DTSTART;TZID=America/Los_Angeles:20220519T164000
+DTEND;TZID=America/Los_Angeles:20220519T174000
+SUMMARY:End of the day keynote [Keynote]
+LOCATION:Portland BR 253
+DESCRIPTION:Track: Keynote\nVaidehi Joshi\n
+END:VEVENT
+END:VCALENDAR
